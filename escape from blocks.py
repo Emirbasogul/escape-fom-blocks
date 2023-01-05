@@ -3,7 +3,7 @@ def main():
     import time
     import random
     
-    hiz = 0.001
+    Fsleeptime = 0.001
 
     pencere = turtle.Screen()
     pencere.title("kaçış Oyunu")
@@ -131,5 +131,5 @@ def main():
         
         """print(time.process_time) """      
         move()
-        time.sleep(hiz)
+        time.sleep(Fsleeptime)
 main()    
