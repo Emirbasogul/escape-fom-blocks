@@ -96,7 +96,7 @@ def main():
             hareketHızı = hareketHızı + 0.1
             print("tuzak hızı arttırıldı, yeni hız:" + str(tuzakHızı))
             print("hareket hızı arttırıldı, yeni hız:" + str(hareketHızı))
-            levelUpYazı.write("LEVEL ARTTIRIYORUM", align="center", font=("Courier", 24, "italic"))
+            levelUpYazı.write("Level up :)", align="center", font=("Courier", 24, "italic"))
             time.sleep(1)
             levelUpYazı.clear()
 
